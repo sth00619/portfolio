@@ -179,7 +179,57 @@ footer p {
     color: #aaaaaa;
 }
 
-/* Contact Page Styles - Without Form */
+/* Contact Page Styles */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555555;
+}
+
 .contact-info {
     margin-top: 3rem;
     text-align: center;
